@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore our accessible and SEO-friendly web page built with modern HTML5." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML" />
+  <meta name="author" content="Your Name" />
+  <title>Accessible & SEO-Friendly Web Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header role="banner">
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Our Website</h1>
+    <p>Your go-to source for accessible and optimized web content.</p>
+  </header>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We build modern websites using semantic HTML5 elements, making them accessible and search-engine friendly.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article>
+        <h3>Semantic Structure</h3>
+        <p>Using elements like <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;aside&gt;</code> improves clarity and machine-readability.</p>
+      </article>
+      <article>
+        <h3>Accessibility</h3>
+        <p>We include <code>aria</code> roles and descriptive <code>alt</code> attributes to support assistive technologies.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>Our content includes metadata and headings designed to improve search visibility and ranking.</p>
+      </article>
+    </section>
+
+    <aside aria-labelledby="news-heading">
+      <h2 id="news-heading">Latest News</h2>
+      <p>Check back often for updates and best practices on web development and accessibility.</p>
+    </aside>
+  </main>
+
+  <footer role="contentinfo">
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        Email: <a href="mailto:info@example.com">info@example.com</a><br />
+        Phone: +123-456-7890
+      </address>
+    </section>
+    <p>&copy; 2025 Accessible Web Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
